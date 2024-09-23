@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "47b3563fa2b0187a",
+        "id": "a408a376046c8603",
         "type": "tabs",
         "children": [
           {
-            "id": "a03ea2f705164271",
+            "id": "94e7d4622771ce42",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c6ce4cc1594f21d1",
@@ -122,11 +121,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 494.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,9 +138,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a03ea2f705164271",
+  "active": "94e7d4622771ce42",
   "lastOpenFiles": [
-    "logica_1/Anotações.md",
+    "logica_1/Aula-03.md",
+    "logica_1/Aula-01.md",
+    "logica_1/Aula-02.md",
+    "Untitled.canvas",
     "logica_1/Indíce.md",
     "logica_1",
     "Welcome.md",
