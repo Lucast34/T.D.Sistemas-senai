@@ -10,12 +10,31 @@
           {
             "id": "94e7d4622771ce42",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "logica_1/Aula-04.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "f20383ffb1a13af0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "logica_1/Indíce.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "logica_1/Indíce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "logica_1/Indíce.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "logica_1/Indíce.md"
+              }
             }
           }
         ],
@@ -138,10 +161,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94e7d4622771ce42",
+  "active": "f20383ffb1a13af0",
   "lastOpenFiles": [
-    "logica_1/Aula-03.md",
     "logica_1/Aula-01.md",
+    "logica_1/Aula-03.md",
+    "logica_1/Aula-04.md",
     "logica_1/Aula-02.md",
     "Untitled.canvas",
     "logica_1/Indíce.md",
