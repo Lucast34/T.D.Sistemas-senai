@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "6611151599058da9",
+    "type": "split",
+    "children": [
+      {
+        "id": "937cbe9a91a223bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb15d43ef4c70210",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d5189010ed8239cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f93c43d2f65b9ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ef1ccb82802952f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cc059752c0b2d682",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "00a5ba8feabef995",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0d31bf13105ec872",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b892221f7043f42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a79879ef754efdca",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "394553119219873d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2727de8517ae4d6a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "75732ce831652869",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "fb15d43ef4c70210",
+  "lastOpenFiles": [
+    "2024-09-24.md",
+    "anotacoes/logica_1/mapa-mental/Maps.canvas",
+    "anotacoes/logica_1/mapa-mental/Ponte norte.md",
+    "Untitled.canvas",
+    "anotacoes/logica_1/mapa-mental/CPU.md",
+    "anotacoes/logica_1/mapa-mental/Sistema operacional.md",
+    "anotacoes/logica_1/mapa-mental/Ponte sul.md",
+    "anotacoes/logica_1/mapa-mental"
+  ]
+}

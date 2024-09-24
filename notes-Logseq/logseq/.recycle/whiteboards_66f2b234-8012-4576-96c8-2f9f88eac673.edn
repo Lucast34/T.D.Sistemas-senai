@@ -1,0 +1,54 @@
+{:blocks (
+{:block/content "Placa mãe"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "66f2b234-8012-4576-96c8-2f9f88eac673"}
+:block/parent 
+{:block/uuid #uuid "66f2b234-8012-4576-96c8-2f9f88eac673"}
+:block/properties 
+{}
+:block/uuid #uuid "66f2b252-2b32-4eac-96b3-b0b95ebf06a3"} 
+{:block/created-at 1727181394375
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "66f2b252-2b32-4eac-96b3-b0b95ebf06a3"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 41.079193115234375]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "9f6d2c80-7a71-11ef-803c-2deb3d369abe"
+:noFill false
+:point [296 288]
+:parentId "66f2b234-8012-4576-96c8-2f9f88eac673"
+:collapsedHeight 0
+:nonce 1727181389643}}
+:block/updated-at 1727181394375})
+:pages (
+{:block/uuid #uuid "66f2b234-8012-4576-96c8-2f9f88eac673"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "66f2b234-8012-4576-96c8-2f9f88eac673"
+:name "66f2b234-8012-4576-96c8-2f9f88eac673"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("9f6d2c80-7a71-11ef-803c-2deb3d369abe")}}
+:block/updated-at 1727181407442
+:block/created-at 1727181364570
+:block/type "whiteboard"
+:block/name "66f2b234-8012-4576-96c8-2f9f88eac673"
+:block/original-name "66f2b234-8012-4576-96c8-2f9f88eac673"})}

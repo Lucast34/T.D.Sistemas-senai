@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"202e2b2ed2b7f736","type":"text","text":"\tSoftware ","x":295,"y":130,"width":250,"height":60},
+		{"id":"9ca31d31bac3b33a","type":"text","text":"\tHardware","x":-750,"y":130,"width":250,"height":60},
+		{"id":"418a0009d1790422","x":-207,"y":132,"width":250,"height":60,"type":"text","text":"#mapa-mental "},
+		{"id":"0be6529f83c5c745","type":"text","text":"     Placa-Mãe","x":-750,"y":280,"width":250,"height":60},
+		{"id":"07841020618451d4","type":"file","file":"anotacoes/logica_1/mapa-mental/Ponte sul.md","x":-560,"y":460,"width":400,"height":380},
+		{"id":"2b095ea75ebf61cf","type":"file","file":"anotacoes/logica_1/mapa-mental/Ponte norte.md","x":-1120,"y":460,"width":400,"height":380},
+		{"id":"2bc333dc950750b6","type":"text","text":"RAM","x":-1480,"y":480,"width":250,"height":50},
+		{"id":"44a42e6aebfa7bf3","type":"text","text":"Processador","x":-1520,"y":625,"width":250,"height":50},
+		{"id":"c117d10b3c8a538b","type":"text","text":"Placa de vídeo","x":-1480,"y":790,"width":250,"height":50},
+		{"id":"af5066d25f589ed3","type":"file","file":"anotacoes/logica_1/mapa-mental/Sistema operacional.md","x":220,"y":-480,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"e1bc8559381a3a45","fromNode":"9ca31d31bac3b33a","fromSide":"bottom","toNode":"0be6529f83c5c745","toSide":"top"},
+		{"id":"a5fba1cc1234c6b2","fromNode":"2b095ea75ebf61cf","fromSide":"right","toNode":"07841020618451d4","toSide":"left"},
+		{"id":"1177a1e1ae9bc414","fromNode":"0be6529f83c5c745","fromSide":"bottom","toNode":"2b095ea75ebf61cf","toSide":"top"},
+		{"id":"f71ee84b4f8db851","fromNode":"0be6529f83c5c745","fromSide":"bottom","toNode":"07841020618451d4","toSide":"top"},
+		{"id":"3a07a90e1cdcfb5a","fromNode":"2b095ea75ebf61cf","fromSide":"left","toNode":"44a42e6aebfa7bf3","toSide":"right"},
+		{"id":"4a6cf025fb8adff0","fromNode":"2b095ea75ebf61cf","fromSide":"left","toNode":"c117d10b3c8a538b","toSide":"right"},
+		{"id":"13964d10e78b855f","fromNode":"2b095ea75ebf61cf","fromSide":"left","toNode":"2bc333dc950750b6","toSide":"right"},
+		{"id":"2f7277f40923b798","fromNode":"202e2b2ed2b7f736","fromSide":"top","toNode":"af5066d25f589ed3","toSide":"bottom"},
+		{"id":"e6f81c92b2781c5a","fromNode":"9ca31d31bac3b33a","fromSide":"right","toNode":"418a0009d1790422","toSide":"left"},
+		{"id":"965a69036be1225d","fromNode":"418a0009d1790422","fromSide":"right","toNode":"202e2b2ed2b7f736","toSide":"left"}
+	]
+}
