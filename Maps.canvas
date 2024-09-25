@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"9ca31d31bac3b33a","type":"text","text":"\tHardware","x":-625,"y":132,"width":250,"height":60},
+		{"id":"0be6529f83c5c745","type":"text","text":"     Placa-Mãe","x":-625,"y":280,"width":250,"height":80},
+		{"id":"07841020618451d4","type":"file","file":"anotacoes/logica_1/mapa-mental/Ponte sul.md","x":-407,"y":460,"width":400,"height":350},
+		{"id":"2b095ea75ebf61cf","type":"file","file":"anotacoes/logica_1/mapa-mental/Ponte norte.md","x":-1025,"y":460,"width":400,"height":350},
+		{"id":"44a42e6aebfa7bf3","type":"text","text":"Processador: Basicamente o cérebro do computador ele processa somente dados.","x":-1200,"y":1025,"width":250,"height":135},
+		{"id":"c117d10b3c8a538b","type":"text","text":"Placa de vídeo: Responsável por processar vídeo","x":-700,"y":1025,"width":270,"height":135},
+		{"id":"2bc333dc950750b6","type":"text","text":"RAM: Armazenamento temporariamente \n","x":-950,"y":945,"width":250,"height":80},
+		{"id":"418a0009d1790422","type":"text","text":"#mapa-mental ","x":-257,"y":132,"width":250,"height":60},
+		{"id":"202e2b2ed2b7f736","type":"text","text":"\tSoftware ","x":124,"y":132,"width":250,"height":60},
+		{"id":"af5066d25f589ed3","type":"file","file":"anotacoes/logica_1/mapa-mental/Sistema operacional.md","x":79,"y":-195,"width":340,"height":210},
+		{"id":"f94f09b81488e266","type":"text","text":"\tWindows          ","x":-257,"y":-45,"width":250,"height":60},
+		{"id":"2cd3ebaae569b1b9","type":"text","text":"\tUnix","x":-257,"y":-180,"width":250,"height":60},
+		{"id":"af6f6ce7ab465b19","type":"text","text":"Disco rígido : Armazena dada de longa data ou seja o dado só é apagado se o usuário quiser","x":-333,"y":902,"width":250,"height":123}
+	],
+	"edges":[
+		{"id":"e1bc8559381a3a45","fromNode":"9ca31d31bac3b33a","fromSide":"bottom","toNode":"0be6529f83c5c745","toSide":"top"},
+		{"id":"a5fba1cc1234c6b2","fromNode":"2b095ea75ebf61cf","fromSide":"right","toNode":"07841020618451d4","toSide":"left"},
+		{"id":"1177a1e1ae9bc414","fromNode":"0be6529f83c5c745","fromSide":"bottom","toNode":"2b095ea75ebf61cf","toSide":"top"},
+		{"id":"f71ee84b4f8db851","fromNode":"0be6529f83c5c745","fromSide":"bottom","toNode":"07841020618451d4","toSide":"top"},
+		{"id":"2f7277f40923b798","fromNode":"202e2b2ed2b7f736","fromSide":"top","toNode":"af5066d25f589ed3","toSide":"bottom"},
+		{"id":"e6f81c92b2781c5a","fromNode":"9ca31d31bac3b33a","fromSide":"right","toNode":"418a0009d1790422","toSide":"left"},
+		{"id":"965a69036be1225d","fromNode":"418a0009d1790422","fromSide":"right","toNode":"202e2b2ed2b7f736","toSide":"left"},
+		{"id":"7e35160b78007d5c","fromNode":"af5066d25f589ed3","fromSide":"left","toNode":"2cd3ebaae569b1b9","toSide":"right"},
+		{"id":"70f3df3ba7f4c682","fromNode":"2b095ea75ebf61cf","fromSide":"bottom","toNode":"44a42e6aebfa7bf3","toSide":"top"},
+		{"id":"26418e48e7d62248","fromNode":"2b095ea75ebf61cf","fromSide":"bottom","toNode":"2bc333dc950750b6","toSide":"top"},
+		{"id":"7ca996e8aec7c389","fromNode":"2b095ea75ebf61cf","fromSide":"bottom","toNode":"c117d10b3c8a538b","toSide":"top"},
+		{"id":"ca6dbf0846534673","fromNode":"44a42e6aebfa7bf3","fromSide":"right","toNode":"2bc333dc950750b6","toSide":"bottom"},
+		{"id":"4634e600654fc7b3","fromNode":"c117d10b3c8a538b","fromSide":"left","toNode":"44a42e6aebfa7bf3","toSide":"right"},
+		{"id":"83b56b4db98fedc7","fromNode":"af5066d25f589ed3","fromSide":"left","toNode":"f94f09b81488e266","toSide":"right"},
+		{"id":"98a19862035e900b","fromNode":"07841020618451d4","fromSide":"bottom","toNode":"af6f6ce7ab465b19","toSide":"top"},
+		{"id":"104b2be3cacbe88b","fromNode":"2bc333dc950750b6","fromSide":"bottom","toNode":"44a42e6aebfa7bf3","toSide":"right"},
+		{"id":"e8ccd9cae3fb62d7","fromNode":"418a0009d1790422","fromSide":"left","toNode":"9ca31d31bac3b33a","toSide":"right"},
+		{"id":"513bd6cd1fc91263","fromNode":"418a0009d1790422","fromSide":"right","toNode":"202e2b2ed2b7f736","toSide":"left"},
+		{"id":"70ff836b3f0dd714","fromNode":"202e2b2ed2b7f736","fromSide":"left","toNode":"418a0009d1790422","toSide":"right"}
+	]
+}
