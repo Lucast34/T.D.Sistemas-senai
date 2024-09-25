@@ -11,8 +11,15 @@
             "id": "fb15d43ef4c70210",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "anotacoes/logica_1/mapa-mental/Maps.canvas",
+                "viewState": {
+                  "x": -369.5156426299452,
+                  "y": 773.3299844932109,
+                  "zoom": -0.6666666666666665
+                }
+              }
             }
           }
         ]
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Atividade 25-09-2024.md"
+              }
             }
           }
         ]
@@ -135,13 +144,17 @@
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "fb15d43ef4c70210",
+  "active": "6ef1ccb82802952f",
   "lastOpenFiles": [
-    "2024-09-24.md",
     "anotacoes/logica_1/mapa-mental/Maps.canvas",
+    "Atividade 25-09-2024.md",
+    "Maps.png",
+    "Maps(1).png",
+    "2024-09-24.md",
     "anotacoes/logica_1/mapa-mental/Ponte norte.md",
     "Untitled.canvas",
     "anotacoes/logica_1/mapa-mental/CPU.md",
