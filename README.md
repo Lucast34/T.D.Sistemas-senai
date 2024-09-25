@@ -11,3 +11,4 @@
 |Anotações|Link|
 |-|-|
 |Obsidian|[Pasta](./notes-obsidian/anotacoes/logica_1/)
+|Mapa-mental|[Pasta](./notes-obsidian/anotacoes/logica_1/mapa-mental/)
