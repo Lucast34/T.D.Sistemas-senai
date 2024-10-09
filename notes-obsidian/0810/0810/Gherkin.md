@@ -23,6 +23,8 @@ Outro cenário se
 - Então eu apto a doar sangue máxima (pode retira 400ml)
 
 Estudo de caso 2:
+- Desconto de mercado
+	Primeiro eu insiro o preço e a quantidade de produtos 
 Cenário:
 - Dado que eu  informo preço > 10
 -  E eu peço a quantidade <= 5
@@ -45,5 +47,17 @@ Outro cenário:
 Estudo de Caso 3:
 - Dado que eu informo nota 1 for maior que a nota 2
 - E nota 3 for maior que 10
+- e somar nota1, nota2, nota3 dividido por 3 sendo maior ou igual a sete 
+- Eu recebo o valor aprovado
+
+Outro cenário:
+- Dado que eu informo nota 1 for maior que a nota 2
+- E nota 3 for maior que 10
+- E somar nota1, nota2, nota3 dividido por 3 sendo maior ou igual a sete
+- E se nota for igual a oito e nota3 for diferente de 9
+- Eu recebo o valor arrendondado 
+
+
+Estudo de caso 4:
 - 
 
