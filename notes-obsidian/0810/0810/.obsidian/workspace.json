@@ -18,15 +18,9 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "98a23781f216f214",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "cb89ab460d9ff37b",
+            "id": "cf5e3df1a39bad79",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -87,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b247d7e89b9af163",
