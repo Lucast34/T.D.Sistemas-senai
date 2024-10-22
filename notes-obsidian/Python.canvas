@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"ab1ef6f0cb85c42e","x":92,"y":280,"width":2468,"height":1760,"type":"group","label":"Bibliotecas"},
+		{"id":"0c9d570603f211d3","x":-620,"y":-440,"width":703,"height":300,"type":"group","label":"sintaxe"},
+		{"id":"1ec6665c65002234","x":-125,"y":-30,"width":145,"height":60,"type":"text","text":"## Python"},
+		{"id":"d533b46411857c0c","x":-322,"y":131,"width":322,"height":109,"type":"text","text":"Python é uma linguagem de programação amplamente usado na área de dados"},
+		{"id":"0efdf5175d84fe7b","x":-207,"y":-226,"width":270,"height":66,"type":"text","text":"Sua sintaxes é bem simples "},
+		{"id":"a043ad82b5d153dd","x":-600,"y":-262,"width":250,"height":69,"type":"text","text":"Para mostra algo na tela é \n``print(\"Hello world\")``\n"},
+		{"id":"5709bf30e1564bc5","x":-187,"y":-420,"width":230,"height":96,"type":"text","text":"Pra declarar variável usamos: string, float, int,bool "},
+		{"id":"dce50d2aa2e32d97","x":-660,"y":80,"width":204,"height":66,"type":"text","text":"Ela é de alto nível "},
+		{"id":"df96da2ad02843ae","x":-702,"y":220,"width":289,"height":102,"type":"text","text":"E interpreta ou seja não necessita de um compilador diferente de outras linguagem "},
+		{"id":"04189ee9bb7f1350","x":112,"y":300,"width":400,"height":400,"type":"link","url":"https://pandas.pydata.org/"},
+		{"id":"e8b27b0a50ad9d62","x":112,"y":-21,"width":344,"height":102,"type":"text","text":"Tanto que ele tem  suporte bibliotecas amplas para mexe com dados. Por exemplo: "},
+		{"id":"97386281916d4dc4","x":580,"y":300,"width":400,"height":400,"type":"link","url":"https://numpy.org/"},
+		{"id":"5cc881331a4398a5","x":112,"y":740,"width":908,"height":400,"type":"link","url":"https://seaborn.pydata.org/"},
+		{"id":"c300080669e9b1e9","x":112,"y":1200,"width":980,"height":759,"type":"link","url":"https://plot.ly/consulting-and-oem/"},
+		{"id":"552edf87b2a79d93","x":1600,"y":340,"width":580,"height":400,"type":"link","url":"https://seaborn.pydata.org/examples/index.html"},
+		{"id":"1a25d6e8e4a43b5f","x":1440,"y":880,"width":1000,"height":980,"type":"link","url":"https://plotly.com/python/"}
+	],
+	"edges":[
+		{"id":"1b713dac5f6df90d","fromNode":"1ec6665c65002234","fromSide":"bottom","toNode":"d533b46411857c0c","toSide":"top"},
+		{"id":"0825fd39b9f9614c","fromNode":"0efdf5175d84fe7b","fromSide":"left","toNode":"a043ad82b5d153dd","toSide":"right"},
+		{"id":"c0b0106726bd2ef2","fromNode":"0efdf5175d84fe7b","fromSide":"top","toNode":"5709bf30e1564bc5","toSide":"bottom"},
+		{"id":"afb41df577255111","fromNode":"d533b46411857c0c","fromSide":"right","toNode":"e8b27b0a50ad9d62","toSide":"left"},
+		{"id":"92852d5977889721","fromNode":"1ec6665c65002234","fromSide":"top","toNode":"0c9d570603f211d3","toSide":"bottom"},
+		{"id":"7c577a5d3407d0df","fromNode":"d533b46411857c0c","fromSide":"left","toNode":"dce50d2aa2e32d97","toSide":"right"},
+		{"id":"22be90a71dc941e6","fromNode":"dce50d2aa2e32d97","fromSide":"bottom","toNode":"df96da2ad02843ae","toSide":"top"},
+		{"id":"c48965c115f681af","fromNode":"e8b27b0a50ad9d62","fromSide":"bottom","toNode":"ab1ef6f0cb85c42e","toSide":"top"},
+		{"id":"9d8854175cfc7b71","fromNode":"5cc881331a4398a5","fromSide":"right","toNode":"552edf87b2a79d93","toSide":"left","label":"Exemplo de seborn"},
+		{"id":"696ed61913124bec","fromNode":"c300080669e9b1e9","fromSide":"right","toNode":"1a25d6e8e4a43b5f","toSide":"left","label":"Exemplos de Ploty\n "}
+	]
+}
