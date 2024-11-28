@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"24381b03cc5a54eb","x":160,"y":-105,"width":150,"height":55,"type":"text","text":"Modulo 3"},
+		{"id":"baad6a897ea0fab0","x":-440,"y":610,"width":600,"height":460,"type":"text","text":"```` python\nnumbers = [10, 5, 7, 2, 1]\nprint(\"Conteúdo da lista original:\", numbers) # Imprimindo o conteúdo da lista original.\n\n\nnumbers[0] = 111\n\nprint (\"\\nConteúdo da lista anterior:\", numbers) # Imprimindo conteúdo da lista anterior.\n\n\nnumbers[1] = numbers [4] # Copiando o valor do quinto elemento para o segundo.\nprint(\"Conteúdo da lista anterior:\", numbers) # Imprimir o conteúdo da lista anterior.\n\n\nprint (\"\\n List length:\", len (numbers)) # Imprimindo o comprimento da lista.\n````\n\n"},
+		{"id":"1a802a93796e373f","x":-895,"y":40,"width":475,"height":500,"type":"text","text":"````python\nmy_list = []\nswapped = True\nnum = int(input(\"Quantos elementos você deseja embaralhar? \"))\n\nfor i in range(num):\n val = float(input(\"Entre com a lista de elementos:\"))\n my_list.append(val)\n\nwhile swapped:\n    swapped = False\n    for i in range(len(my_list) - 1):\n        if my_list[i] > my_list[i + 1]:\n            swapped = True\n            my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]\n\nprint(\"\\nSorted:\")\nprint(my_list)\n````\n"},
+		{"id":"402e73552f2d6239","x":143,"y":-340,"width":165,"height":90,"type":"text","text":"python modulo 3 & modulo 4"},
+		{"id":"69aeac71834f4883","x":-390,"y":-250,"width":250,"height":85,"type":"text","text":"O python permite manipulção de bit"},
+		{"id":"e18caac0286ee02c","x":-1180,"y":-240,"width":250,"height":300,"type":"text","text":"````python\n# Example 1:\nprint(var > 0)\nprint(not (var <= 0))\n\n\n# Example 2:\nprint(var != 0)\nprint(not (var == 0))\n````\n"},
+		{"id":"4f75f6fdb4e3358b","x":199,"y":670,"width":535,"height":400,"type":"text","text":"Exemplos de .apppend & .insert\n\n```` python\nnumbers = [10, 5, 7, 2, 1]\nprint(\"Conteúdo da lista original:\", numbers) # Imprimindo o conteúdo da lista original.\n\nnumbers.append(6) # Adicionando um valor na lista como não teve uma localização pré-definida  ela será adicionada na última lista.\n\nprint(numbers) # output esperado [10, 5, 7, 2, 1, 6]\n\nlist.insert(0, 15) # Adicionando valor na lista com localização e um valor.\n\nprint(numbers) # output  [15, 10, 5, 7, 2, 1, 6]"},
+		{"id":"367bce56411d4764","x":520,"y":90,"width":348,"height":310,"type":"text","text":"O for é usado para percorre uma lista:\n\n```` python\nmy_list = [10, 1, 8, 3, 5]\n\ntotal = 0\n\nfor i in range(len(my_list)):\n\n  total += my_list[i]\n\nprint(total)\n````\n\n"},
+		{"id":"542b273d4c552d7f","x":35,"y":310,"width":250,"height":60,"type":"text","text":"Index da lista e como manipular ela"},
+		{"id":"8c060dc79c658ebd","x":-740,"y":-292,"width":240,"height":85,"type":"text","text":"# manipulação de binário "},
+		{"id":"91eb53d0e8b4b1b9","x":460,"y":-640,"width":600,"height":680,"type":"text","text":"# Operadores \nIgualdade.\nVerifica se uma variável é igual a outra \n```` python\nvar = 1\nvar = 2\n\nprint(var == var2) # igualdade\n# output esperado 'False' \n````\n  Diferencial\n  Verifica se uma é diferente da outra\n  ```` python\nvar = 1\nvar = 2\n\nprint(var != var2) # diferencial\n# output esperado 'True' \n````\nMenor igual && maior igual\n```` python\nvar = 1\nvar = 2\n\nprint(var >= var2)# maior igual, output esperado 'False'\nprint(var <= var2)# menor igual, output esperado 'True' \n````\n"},
+		{"id":"eb89519bbc8c95c2","x":-278,"y":-622,"width":250,"height":60,"type":"text","text":"Modulo 4"},
+		{"id":"5ec03e3b2bdbfa6e","x":110,"y":30,"width":125,"height":60,"type":"text","text":"Lista\n"}
+	],
+	"edges":[
+		{"id":"ffb9fc9b3888b4b2","fromNode":"24381b03cc5a54eb","fromSide":"bottom","toNode":"5ec03e3b2bdbfa6e","toSide":"top"},
+		{"id":"e4053c0a16c6d2ed","fromNode":"542b273d4c552d7f","fromSide":"bottom","toNode":"baad6a897ea0fab0","toSide":"top"},
+		{"id":"cbc40749a90f5f5c","fromNode":"542b273d4c552d7f","fromSide":"bottom","toNode":"4f75f6fdb4e3358b","toSide":"top"},
+		{"id":"4bae32abb5eecb3d","fromNode":"5ec03e3b2bdbfa6e","fromSide":"right","toNode":"367bce56411d4764","toSide":"left"},
+		{"id":"1036bbfd69a34bb0","fromNode":"5ec03e3b2bdbfa6e","fromSide":"left","toNode":"1a802a93796e373f","toSide":"right"},
+		{"id":"c6e2bfce225632af","fromNode":"402e73552f2d6239","fromSide":"bottom","toNode":"24381b03cc5a54eb","toSide":"top"},
+		{"id":"ff4a7bc0beb1b381","fromNode":"24381b03cc5a54eb","fromSide":"left","toNode":"69aeac71834f4883","toSide":"right"},
+		{"id":"c40c487713e907e0","fromNode":"69aeac71834f4883","fromSide":"bottom","toNode":"1a802a93796e373f","toSide":"right"},
+		{"id":"74bd62e77aa80c50","fromNode":"69aeac71834f4883","fromSide":"left","toNode":"8c060dc79c658ebd","toSide":"right"},
+		{"id":"7ed5bfcd32d86e9d","fromNode":"8c060dc79c658ebd","fromSide":"bottom","toNode":"1a802a93796e373f","toSide":"top"},
+		{"id":"ad51f002ae9c15c1","fromNode":"8c060dc79c658ebd","fromSide":"left","toNode":"e18caac0286ee02c","toSide":"right"},
+		{"id":"685837c70a0a4d00","fromNode":"5ec03e3b2bdbfa6e","fromSide":"bottom","toNode":"542b273d4c552d7f","toSide":"top"},
+		{"id":"fb4bb491da6d52f6","fromNode":"24381b03cc5a54eb","fromSide":"right","toNode":"91eb53d0e8b4b1b9","toSide":"left"},
+		{"id":"51135395606907a7","fromNode":"402e73552f2d6239","fromSide":"left","toNode":"eb89519bbc8c95c2","toSide":"bottom"}
+	]
+}

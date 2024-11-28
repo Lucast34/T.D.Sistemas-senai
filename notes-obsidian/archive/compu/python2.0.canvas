@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"60ce742a4af2b906","type":"text","text":"Python O/I","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"013d9ecaf28d4797","x":0,"y":-180,"width":125,"height":51,"type":"text","text":"input"},
+		{"id":"323f708d93402dbb","x":-125,"y":140,"width":140,"height":50,"type":"text","text":"output\n"},
+		{"id":"7361e5182f806203","x":-220,"y":260,"width":400,"height":200,"type":"file","file":"outputfile.md"},
+		{"id":"a2ea70b08624b25a","x":-60,"y":-440,"width":400,"height":154,"type":"file","file":"input.md"}
+	],
+	"edges":[
+		{"id":"46c26d8c622302cc","fromNode":"60ce742a4af2b906","fromSide":"bottom","toNode":"323f708d93402dbb","toSide":"top"},
+		{"id":"f1b7d48bc3184bc9","fromNode":"60ce742a4af2b906","fromSide":"top","toNode":"013d9ecaf28d4797","toSide":"bottom"},
+		{"id":"ba29bce7be0843e0","fromNode":"323f708d93402dbb","fromSide":"bottom","toNode":"7361e5182f806203","toSide":"top"},
+		{"id":"591d383af12bbe51","fromNode":"013d9ecaf28d4797","fromSide":"top","toNode":"a2ea70b08624b25a","toSide":"bottom"}
+	]
+}
