@@ -1,0 +1,3 @@
+def msg():
+
+    return'Mensagem'
