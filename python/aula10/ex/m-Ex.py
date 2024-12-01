@@ -1,4 +1,11 @@
-import time
+import datetime as dt
+import random
 
 def exer_1():
-    time.perf_counter()
+    dt
+
+def exer_2():
+    random.choices()
+
+
+exer_1()
