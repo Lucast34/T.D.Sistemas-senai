@@ -1,5 +1,3 @@
-def soma():
-    a = 1
-    b = 1
-    
-    return f'{a+b} teste de import'
+from aula1 import index_1 as ix
+
+ix.menu_1()
