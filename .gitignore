@@ -6,3 +6,5 @@ notes-obsidian/.obsidian/plugins/webpage-html-export
 __pycache__
 
 .obsidian
+
+venv
