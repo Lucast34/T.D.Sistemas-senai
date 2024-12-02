@@ -15,15 +15,19 @@ def menu():
 
 
 def exer_1():
-    segundo = int(input('Digite quanto segundos que você quer:\n>> '))
-    mensg = input('Digite um mensagem:\n>> ')
+    try:
+        segundo = int(input('Digite quanto segundos que você quer:\n>> '))
+        mensg = input('Digite um mensagem:\n>> ')
+    except ValueError:
+        print('Alguma coisa deu errado verifique se você não colocou algo errado nos segundos')
+    finally:
 
-    for i in range(segundo,0,-1):
-        s(1)
-        print(f'{i} segundos')
+        for i in range(segundo,0,-1):
+            s(1)
+            print(f'{i} segundos')
 
-    print(mensg)
-    
+        print(mensg)
+        
 
 def exer_2():
     semana = ['SEG','TER','QUA','QUI','SEX','SAB','DOM']
@@ -35,23 +39,30 @@ def exer_2():
     return print(f'{semana_escolha,tarefa_escolha}')
 
 def exer_3():
-    ano = int(input('Digite um ano:\n>>'))
-    dia_atual = datetime.now().day
-    mes_atual = datetime.now().month
-    
-    print(f'Você está no ano >> {ano}\nNo mês >> {mes_atual}\nNo dia >> {dia_atual}')
-    print(c.calendar(ano))
+    mensagem = ['PUTA QUE PARIU VOCÊ SABE LER ?', 'ALGO DEU ERRADO']
+    try:
+        ano = int(input('Digite um ano:\n>>'))
+        dia_atual = datetime.now().day
+        mes_atual = datetime.now().month
+        
+        print(f'Você está no ano >> {ano}\nNo mês >> {mes_atual}\nNo dia >> {dia_atual}')
+        print(c.calendar(ano))
+    except ValueError:
+        print(random.choice(mensagem))
 
 
 def exer_4():
-    participantes = []
-    print('#'*3,'SORTEIO','#'*3)
+    try:
+        participantes = []
+        print('#'*3,'SORTEIO','#'*3)
 
-    qt_par = int(input("quantas pessoas vão ser:\n>> "))
-
-    for part_a in range(qt_par):
-        nome = input(f'Diga o nome do {part_a + 1}º participante:\n>> ')
-        participantes.append(nome)
+        qt_par = int(input("quantas pessoas vão ser:\n>> "))
+    except ValueError:
+        print('SOMENTE NUMERO')
+    finally:
+        for part_a in range(qt_par):
+            nome = input(f'Diga o nome do {part_a + 1}º participante:\n>> ')
+            participantes.append(nome)
 
     part_sorte = random.choice(participantes) 
 

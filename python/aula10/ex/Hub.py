@@ -21,17 +21,17 @@ while True:
         print('APENAS NUMEROS')
 
         
-    try:
-        desejo = input('Deseja continuar?(s/n):\n>> ').lower()
+    
+    desejo = input('Deseja continuar?(s/n):\n>> ').lower()
 
-        if desejo == 's':
-            clear = lambda: os.system('cls')
-            
-            clear()
-        else:
-            print('PROGRAMA ENCERRADO!')
-            break
-    except Exception:
-        Exception('Algo deu errado você digitou s ou n, corretamente?')
+    if desejo == 's':
+        clear = lambda: os.system('cls')
+        clear()
+    elif desejo == 'n':
+        print('PROGRAMA ENCERRADO!')
+        break
+    else:
+        print('Input invalido encerrando programa')
+        break
 
 
