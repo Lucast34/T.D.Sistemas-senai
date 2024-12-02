@@ -1,4 +1,5 @@
-from aula10 import hub as h
+from python import hub 
 
-h.soma()
+hub.soma()
+
 
