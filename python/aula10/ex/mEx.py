@@ -1,9 +1,29 @@
-import datetime as dt
-from datetime import date as da
+from datetime import datetime
+import calendar as c
+from time import sleep as s
 import random
 
+def menu():
+    print('-'*10,'-'*10)
+    print('SELECIONE UM DOS EXERCICIOS')
+    print('1 - Crie um cronômetro reverso com uma mensagem final personalizada usando o módulo time.')
+    print('2 - Crie um programa que gere uma agenda semanal aleatória com atividades usando o módulo random.')
+    print('3 - Use o módulo calendar para exibir o calendário completo do ano atual')
+    print('4 - Use o módulo random para sortear um nome de uma lista de participantes.')
+    print('-'*10,'-'*10)
+
+
+
 def exer_1():
-    dt
+    segundo = int(input('Digite quanto segundos que você quer:\n>> '))
+    mensg = input('Digite um mensagem:\n>> ')
+
+    for i in range(segundo,0,-1):
+        s(1)
+        print(f'{i} segundos')
+
+    print(mensg)
+    
 
 def exer_2():
     semana = ['SEG','TER','QUA','QUI','SEX','SAB','DOM']
@@ -15,9 +35,13 @@ def exer_2():
     return print(f'{semana_escolha,tarefa_escolha}')
 
 def exer_3():
-    caledario = da.strftime("%d/%m/%y")
+    ano = int(input('Digite um ano:\n>>'))
+    dia_atual = datetime.now().day
+    mes_atual = datetime.now().month
+    
+    print(f'Você está no ano >> {ano}\nNo mês >> {mes_atual}\nNo dia >> {dia_atual}')
+    print(c.calendar(ano))
 
-    return caledario
 
 def exer_4():
     participantes = []
