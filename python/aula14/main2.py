@@ -4,22 +4,26 @@ Associação - Reaciona um objeto a outro
 """
 
 class Usuario:
-    def __init__(self,nome,login,senha) -> None:
+    def __init__(self,nome,login,senha):
         self.nome = nome
         self.login = login
         self.senha = senha
-        self.biblioteca = None
+        self.livro = None
     
+    # Property chama um objeto exerteno e retornando
+    # 'Pego o objeto e retorno'
     @property
-    def livro(self):
-        return self.biblioteca
+    def livroAdd(self):
+        return self.livro
 
-    @livro.setter
-    def AdicionarLivros(self,livro):
-        self.biblioteca = livro
+    # Pega o que foi retornando e acrescenta no atributo
+    # 'Pego o que foi retornado e acrescentou no usuario'
+    @livroAdd.setter
+    def livroAdd(self,livroAdd):
+        self.livro = livroAdd
 
 class Livro:
-    def __init__(self,nome,autor) -> None:
+    def __init__(self,nome,autor):
         self.nome = nome
         self.autor = autor
     
@@ -38,4 +42,4 @@ print(user.biblioteca.mostrarAutor())
 #   MostrarAutor
 
 print(f"User {user.__dict__}\nLivro:{book.__dict__}")
-print(f"{user.biblioteca}")
+print(f"{user.livro }")
