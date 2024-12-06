@@ -7,4 +7,13 @@
 
 4)Crie uma classe Aluno que tenha os atributos nome, notas (uma lista) e métodos para calcular a média e verificar se o aluno foi aprovado (média >= 7). Todo aluno criado deverá ser adicionado a um Json
 '''
+def ex1():
+    class Estoque:
+        def __init__(self)-> None:
+            pass
 
+    class Produto:
+        def __init__ (self) -> None:
+            pass 
+    
+    
