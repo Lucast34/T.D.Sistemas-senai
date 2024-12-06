@@ -13,12 +13,19 @@ class Carro:
         self.portaMala = 0 
 
     """
-    #@ propeerty <- refatoração
+    #@ property <- refatoração
     """
     # Mais objtos
     def ligar(self): # ligando 
         self.ligado = True
         print(f'O carro {self._modelo} etá ligado')
+
+    '''
+    Refatoração ligar e desligar ser a mesma coisa
+    def motor (self) -> None:
+        
+        
+    '''
 
     def desligar(self): # desligando
         self.ligado = False
@@ -35,16 +42,21 @@ class Carro:
         print(f'O peso do porta mala e de {self.portaMala}kg')
 
 class Motorista:
-    def __init__(self)-> None:
-        self.nome 
+    def __init__(self,nome,sobrenome,carteira):
+        self.nome = nome
+        self.sobrenome = sobrenome
+        self.carteira = carteira
 
 
+
+pessoa = Motorista('Edmar','Gomes','AB')
 
 carro = Carro('Toyota','Trueno-AE86','Branco')
 
+print(pessoa.nome,pessoa.sobrenome,pessoa.carteira)
 print(carro._marca,carro._modelo)
 
-carro.ligado()
+carro.ligar()
 
 #adicionando velocida 
 carro.velo(90)
