@@ -5,10 +5,11 @@ import platform
 limpar = platform.system()
 
 def menu():
-    print('O deseja fazer?')
-    print('1- Login')
-    print('2- Cadastro')
-
+    print('-'*10)
+    print('O que deseja fazer?')
+    print('(1)-> Login')
+    print('(2)-> Cadastro')
+    print('-'*10)
 def menu_escolha():
     ...
 
