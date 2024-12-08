@@ -1,7 +1,7 @@
 def ex1():
     class Estoque:
         def __init__(self)-> None:
-            pass
+            
 
     class Produto:
         def __init__ (self) -> None:
