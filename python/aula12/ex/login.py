@@ -6,7 +6,8 @@ while True:
         m.limpar()
         m.menu()
 
-        escolha = int(input('Escolha uma opeção'))
+        print('Escolha uma opção')
+        escolha = int(input('>> '))
         
         match escolha:
             case 1:
@@ -21,7 +22,10 @@ while True:
             print('algo deu errado quer tentar novamente?')  
 
     finally:
-        print("Deseja continuar no programa(s/n)").lower()
-        escolha_dnv = int(input(">> "))
-
-         
+        print("Deseja sair do programa(s/n)")
+        escolha_dnv = input(">> ").lower()
+        
+        if escolha == 's':
+            break         
+        else:
+            print('Ok :)')
