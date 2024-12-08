@@ -9,6 +9,8 @@ def menu():
     print('1- Login')
     print('2- Cadastro')
 
+def menu_escolha():
+    ...
 
 
 def limpar():
