@@ -18,3 +18,17 @@ class Aluno:
         
     def adicionarNotas(self,nota):
         self._notas.append(nota)
+
+    def calcularMedia(self):
+        
+
+
+
+aluno1 = Aluno('Victor') 
+
+aluno1.adicionarNotas(8)
+aluno1.adicionarNotas(5)
+
+print(aluno1._notas)
+
+aluno2 = Aluno('Brena')
