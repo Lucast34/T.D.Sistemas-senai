@@ -11,6 +11,8 @@
 # com dois under - privado 
 
 import json as j
+import os
+
 
 class Aluno:
     def __init__(self, nome):
@@ -37,6 +39,16 @@ class Aluno:
             'media' :   self.calcularMedia(),
             'aprovacao' : self. Apr()
         }
+        if os.path.exist('dadosAlunos.json'): # 
+            with open('dadosAlunos.json','r',encoding='utf8') as arquivo:
+                dados = j.load(arquivo)
+        else:
+            dados = []
+
+        dados.append(dados_alunos)
+
+        with open('dadosAlunos','w',encoding='utf8') as arquivos:
+            j.dump(dados,indent=2)
 
 
 aluno1 = Aluno('Victor') 
