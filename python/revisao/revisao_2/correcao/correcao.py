@@ -6,10 +6,11 @@
 5- verificar se existe alunos anteriores
 6- exportar para um json
 """
-
 # sem under - publico
 # com um under - protegido
 # com dois under - privado 
+
+import json as j
 
 class Aluno:
     def __init__(self, nome):
@@ -17,11 +18,25 @@ class Aluno:
         self._notas = []
         
     def adicionarNotas(self,nota):
+        # [(lambda x : x*x )(x)for x in range(4)] ← refatorção
+
         self._notas.append(nota)
 
     def calcularMedia(self):
-        
+        return sum(self._notas)/len(self._notas) if self._notas else  0
 
+    def Apr(self):
+        media = self.calcularMedia()
+        
+        return 'Aprovado' if media >= 7 else 'Reprovado' 
+
+    def exportAluno(self):
+        dados_alunos = {
+            'nome' : self.nome,
+            'notas' : self._notas,
+            'media' :   self.calcularMedia(),
+            'aprovacao' : self. Apr()
+        }
 
 
 aluno1 = Aluno('Victor') 
@@ -29,6 +44,8 @@ aluno1 = Aluno('Victor')
 aluno1.adicionarNotas(8)
 aluno1.adicionarNotas(5)
 
+aluno1.Apr()
+
 print(aluno1._notas)
 
-aluno2 = Aluno('Brena')
+aluno2 = Aluno('Bruna')
