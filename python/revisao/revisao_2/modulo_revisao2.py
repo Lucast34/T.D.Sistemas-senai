@@ -9,15 +9,26 @@ def apagar():
 
 
 def ex1():
-    dicio
+    dicio = { 
+        'produto' : 'nome_produto',
+        'quantidade' : 'quantidade_estoque',
+        'preco':'preco_lol'
+        }
+
+    while True:
     
-    class Estoque:
-        def __init__(self,produto)-> None:
-            self.produto = produto
-            self.quantida = quantidade 
-    class Produto:
-        def __init__ (self) -> None:
-            pass 
+
+        try:
+            class Estoque:
+                def __init__(self,produto)-> None:    # < - a classe principal precisa compilar tudo aqui e mandar no dicionario 
+                    self.produto = produto
+                    self.quantida = quantidade 
+            class Produto:
+                def __init__ (self) -> None:
+                    pass 
+        except Exception:
+            print('Sei la que deu nesssa porra fica quieto ai')
+            break
 
 
 def ex2():
