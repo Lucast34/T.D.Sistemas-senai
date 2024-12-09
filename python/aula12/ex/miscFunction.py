@@ -1,3 +1,4 @@
+# (^-^)
 import json as j
 from os import system
 import platform
@@ -5,6 +6,7 @@ import platform
 limpar = platform.system()
 
 def menu():
+
     print('-'*10)
     print('O que deseja fazer?')
     print('(1)-> Login')
@@ -13,10 +15,10 @@ def menu():
 def menu_escolha():
     ...
 
-
 def limpar():
-    if limpar == 'Windows':
-        system('cls')
     
-    elif limpar == 'Linux' or 'Darwin':
-        system('clear')
+    system('cls') if limpar == 'win32' else system('clear')
+
+
+def emot():
+     '(^o^)' if limpar == 'win32' else '(^-^)'
