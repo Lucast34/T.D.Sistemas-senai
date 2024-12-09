@@ -1,15 +1,18 @@
 import miscFunction as m
 import random
 
+ex = 0
+
 # (^-^)
 while True:
-    ex = 0
     try:
+        
         m.limpar()
         m.menu()
 
         ex += 1
-        m.emot() if ex > 5 else ''
+        
+        print(m.emot() if ex > 5 else '')
 
         print('Escolha uma opção')
         escolha = int(input('>> '))
@@ -22,16 +25,10 @@ while True:
     
 
 
-    except error:
-        if error == ValueError :
+    except ValueError:
             print('algo deu errado quer tentar novamente?')  
 
     finally:
         print("Deseja sair do programa(s/n)")
         escolha_dnv = input(">> ").lower()
         
-        if escolha == 's':
-            print('(^-^)')
-            break         
-        else:
-            print('Ok :)')
