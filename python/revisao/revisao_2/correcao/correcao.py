@@ -39,9 +39,15 @@ class Aluno:
             'media' :   self.calcularMedia(),
             'aprovacao' : self. Apr()
         }
+        
+        caminho = ''
+        
         if os.path.exist('dadosAlunos.json'): # 
             with open('dadosAlunos.json','r',encoding='utf8') as arquivo:
-                dados = j.load(arquivo)
+                try:
+                    dados = j.load(arquivo)
+                except j.JSONDecodeError:
+                    dados = []
         else:
             dados = []
 
