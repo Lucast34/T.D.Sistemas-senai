@@ -16,10 +16,10 @@ Em seguida, escreva um código que:  Peça ao usuário que insira sua idade e us
 
 2)Escreva um programa para um sistema de controle de estoque de uma loja. O programa deve:Usar um para armazenar os itens no estoque, onde as chaves são os nomes dos produtos e os valores são as quantidades disponíveis.Permitir que o usuário escolha uma das opções:
 
-    Adicionar um novo produto ao estoque.
-    Atualizar a quantidade de um produto existente.
-    Verificar se um produto está disponível (quantidade maior que 0).
-    Continuar exibindo o menu até que o usuário escolha sair.
+    Adicionar um novo produto ao estoque. ← append & update 
+    Atualizar a quantidade de um produto existente. ← append tbm
+    Verificar se um produto está disponível (quantidade maior que 0). ← try e ex
+    Continuar exibindo o menu até que o usuário escolha sair. ← while
 
 3)Crie um jogo simples em Python:Um número secreto entre 1 e 100 é gerado aleatoriamente.O jogador tem 5 tentativas para adivinhar o número.Após cada tentativa, o programa deve informar:
 
