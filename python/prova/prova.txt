@@ -1,0 +1,39 @@
+AVALIAÇÃO
+Victor Santos Rohod
+•
+08:04
+10 pontos
+Data de entrega: 12:00
+Responda as seguintes questões e anexe ou uma print do seu código rodando + o terminal, ou anexe os arquivos .py desenvolvidos em sala de aula. Cada questão valerá um ponto e deverá ser entregue até o horário de aula do dia 10/12/2024 *Não aceitando entregas posteriores!!!!!*
+
+1)Crie uma função chamada classificar_idade que recebe a idade de uma pessoa e retorna:
+
+    "Criança" se a idade for menor que 12 anos.
+    "Adolescente" se a idade estiver entre 12 e 17 anos.
+    "Adulto" se a idade for maior ou igual a 18 anos.
+
+Em seguida, escreva um código que:  Peça ao usuário que insira sua idade e use a função classificar_idade para exibir a classificação.
+
+2)Escreva um programa para um sistema de controle de estoque de uma loja. O programa deve:Usar um para armazenar os itens no estoque, onde as chaves são os nomes dos produtos e os valores são as quantidades disponíveis.Permitir que o usuário escolha uma das opções:
+
+    Adicionar um novo produto ao estoque.
+    Atualizar a quantidade de um produto existente.
+    Verificar se um produto está disponível (quantidade maior que 0).
+    Continuar exibindo o menu até que o usuário escolha sair.
+
+3)Crie um jogo simples em Python:Um número secreto entre 1 e 100 é gerado aleatoriamente.O jogador tem 5 tentativas para adivinhar o número.Após cada tentativa, o programa deve informar:
+
+    "Muito alto!" se o palpite for maior que o número.
+    "Muito baixo!" se o palpite for menor que o número.
+    "Parabéns, você acertou!" se o palpite for igual ao número.
+
+Caso o jogador não acerte após 5 tentativas, exiba "Game Over! O número era X".
+Utilize a biblioteca random para gerar o número secreto.
+
+4)Crie duas classes:
+1 Autor, com os atributos:  Nome, nacionalidade e livros
+2 Livro, com os atributos: titulo, ano e autor
+Depois, escreva um programa que:Crie um autor e dois livros associados a ele.
+Imprima o nome do autor e a lista dos seus livros.
+
+5)Implemente uma função chamada calculadora que:Receba dois números e uma operação (adição, subtração, multiplicação ou divisão).Retorne o resultado da operação.Trate divisões por zero e exiba uma mensagem apropriada.Salve o histórico dela em um json
