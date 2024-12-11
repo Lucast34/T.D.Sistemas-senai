@@ -21,9 +21,18 @@ def ex1():
     
         try:
             class Estoque:
-                def __init__(self,produto)-> None:    # < - a classe principal precisa compilar tudo aqui e mandar no dicionario 
+                def __init__(self,produto, quantidade)-> None:    # < - a classe principal precisa compilar tudo aqui e mandar no dicionario 
                     self.produto = produto
                     self.quantida = quantidade 
+            
+            
+            @property 
+            def EstoqueAdd(self):
+                ...
+
+            @setter
+            def EstoqueAdd(self):
+
             class Produto:
                 def __init__ (self) -> None:
                     self.nome : nome
