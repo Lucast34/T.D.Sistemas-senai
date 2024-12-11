@@ -8,7 +8,7 @@ class Usuario:
         self.nome = nome
         self.login = login
         self.senha = senha
-        self.livro = None
+        self._livro = None
     
     # Property chama um objeto exerteno e retornando
     # 'Pego o objeto e retorno'
@@ -19,9 +19,9 @@ class Usuario:
     # Pega o que foi retornando e acrescenta no atributo
     # 'Pego o que foi retornado e acrescentou no usuario'
     @livroAdd.setter
-    def livroAdd(self,livroAdd):
-        self.livro = livroAdd
-
+    def livroAdd(self,livro):
+        self.livro = self._livro
+# (^-^)'
 class Livro:
     def __init__(self,nome,autor):
         self.nome = nome
