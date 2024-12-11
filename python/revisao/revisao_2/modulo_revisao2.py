@@ -1,4 +1,6 @@
 import os
+# ᓀ‸ᓂ 
+
 def apagar():
     if os.plataform() == 'win32':
         os.system('cls')
@@ -17,7 +19,6 @@ def ex1():
 
     while True:
     
-
         try:
             class Estoque:
                 def __init__(self,produto)-> None:    # < - a classe principal precisa compilar tudo aqui e mandar no dicionario 
@@ -25,7 +26,12 @@ def ex1():
                     self.quantida = quantidade 
             class Produto:
                 def __init__ (self) -> None:
-                    pass 
+                    self.nome : nome
+
+
+            class AddProduto:
+
+                
         except Exception:
             print('Sei la que deu nesssa porra fica quieto ai')
             break
