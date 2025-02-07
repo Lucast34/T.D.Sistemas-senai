@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//função
+//funÃ§Ã£o
 int maiormenor(float num1, float num2, float num3);
 
 
@@ -34,8 +34,9 @@ int main(void){
 
 int maiormenor(float num1, float num2, float num3){
 	int J = 0;
-	
-	J = (num1 >= num2 ? printf("\nO numero %.2f", num1, "é maior"):(num2 >= num3 ? printf("\nO numero %.2f", num2, "é maior"): printf("\nO numero %.2f", num3, "é maior")));
+
+	// operaÃ§Ã£o ternaria
+	J = (num1 >= num2 ? printf("\nO numero %.2f", num1, "Ã© maior"):(num2 >= num3 ? printf("\nO numero %.2f", num2, "Ã© maior"): printf("\nO numero %.2f", num3, "Ã© maior")));
 	return J;
 	
 	/*
